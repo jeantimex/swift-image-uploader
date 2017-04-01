@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB0A6371E8F0F5A0000FB47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0A6361E8F0F5A0000FB47 /* AppDelegate.swift */; };
+		0AB0A6391E8F0F5A0000FB47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0A6381E8F0F5A0000FB47 /* ViewController.swift */; };
+		0AB0A63E1E8F0F5A0000FB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0A63D1E8F0F5A0000FB47 /* Assets.xcassets */; };
+		0AB0A6411E8F0F5A0000FB47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0A63F1E8F0F5A0000FB47 /* LaunchScreen.storyboard */; };
+		0AB0A64C1E8F0F5B0000FB47 /* Swift_Image_UploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0A64B1E8F0F5B0000FB47 /* Swift_Image_UploaderTests.swift */; };
+		0AB0A6571E8F0F5B0000FB47 /* Swift_Image_UploaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0A6561E8F0F5B0000FB47 /* Swift_Image_UploaderUITests.swift */; };
+		0F9F8AE31B11DB49C90F9477 /* Pods_Swift_Image_Uploader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975042096F61566B3C9C9EE1 /* Pods_Swift_Image_Uploader.framework */; };
+		7E76094FFDB2686E1171697A /* Pods_Swift_Image_UploaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F60C76B632A17EB9E40EE43 /* Pods_Swift_Image_UploaderUITests.framework */; };
+		E6A5E716CDA8812554EAEF66 /* Pods_Swift_Image_UploaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCA2C74110E7906D98B3F99 /* Pods_Swift_Image_UploaderTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AB0A6481E8F0F5B0000FB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB0A62B1E8F0F5A0000FB47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB0A6321E8F0F5A0000FB47;
+			remoteInfo = "Swift Image Uploader";
+		};
+		0AB0A6531E8F0F5B0000FB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB0A62B1E8F0F5A0000FB47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB0A6321E8F0F5A0000FB47;
+			remoteInfo = "Swift Image Uploader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A22FF2AAFD3BA7801E96DA3 /* Pods-Swift Image UploaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Image UploaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Image UploaderUITests/Pods-Swift Image UploaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0AB0A6331E8F0F5A0000FB47 /* Swift Image Uploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Image Uploader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB0A6361E8F0F5A0000FB47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AB0A6381E8F0F5A0000FB47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AB0A63D1E8F0F5A0000FB47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AB0A6401E8F0F5A0000FB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AB0A6421E8F0F5A0000FB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB0A6471E8F0F5B0000FB47 /* Swift Image UploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Image UploaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB0A64B1E8F0F5B0000FB47 /* Swift_Image_UploaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Image_UploaderTests.swift; sourceTree = "<group>"; };
+		0AB0A64D1E8F0F5B0000FB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB0A6521E8F0F5B0000FB47 /* Swift Image UploaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Image UploaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB0A6561E8F0F5B0000FB47 /* Swift_Image_UploaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Image_UploaderUITests.swift; sourceTree = "<group>"; };
+		0AB0A6581E8F0F5B0000FB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142EA76AC1D34D4A5190568D /* Pods-Swift Image Uploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Image Uploader.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Image Uploader/Pods-Swift Image Uploader.release.xcconfig"; sourceTree = "<group>"; };
+		19B8B18D3016D1DB222A7884 /* Pods-Swift Image Uploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Image Uploader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Image Uploader/Pods-Swift Image Uploader.debug.xcconfig"; sourceTree = "<group>"; };
+		1F60C76B632A17EB9E40EE43 /* Pods_Swift_Image_UploaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Image_UploaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCA2C74110E7906D98B3F99 /* Pods_Swift_Image_UploaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Image_UploaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5138E70DA70DC3681D45C958 /* Pods-Swift Image UploaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Image UploaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Image UploaderTests/Pods-Swift Image UploaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		57C8F5F44B3182A415CFA116 /* Pods-Swift Image UploaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Image UploaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Image UploaderTests/Pods-Swift Image UploaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		713E808FC02F770FCD641200 /* Pods-Swift Image UploaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Image UploaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Image UploaderUITests/Pods-Swift Image UploaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		975042096F61566B3C9C9EE1 /* Pods_Swift_Image_Uploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Image_Uploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB0A6301E8F0F5A0000FB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9F8AE31B11DB49C90F9477 /* Pods_Swift_Image_Uploader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB0A6441E8F0F5B0000FB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A5E716CDA8812554EAEF66 /* Pods_Swift_Image_UploaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB0A64F1E8F0F5B0000FB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E76094FFDB2686E1171697A /* Pods_Swift_Image_UploaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB0A62A1E8F0F5A0000FB47 = {
+			isa = PBXGroup;
+			children = (
+				0AB0A6351E8F0F5A0000FB47 /* Swift Image Uploader */,
+				0AB0A64A1E8F0F5B0000FB47 /* Swift Image UploaderTests */,
+				0AB0A6551E8F0F5B0000FB47 /* Swift Image UploaderUITests */,
+				0AB0A6341E8F0F5A0000FB47 /* Products */,
+				2672785D6037976EDC17AC55 /* Pods */,
+				0E08F619B5EEE1E7EE2CE753 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB0A6341E8F0F5A0000FB47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0A6331E8F0F5A0000FB47 /* Swift Image Uploader.app */,
+				0AB0A6471E8F0F5B0000FB47 /* Swift Image UploaderTests.xctest */,
+				0AB0A6521E8F0F5B0000FB47 /* Swift Image UploaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB0A6351E8F0F5A0000FB47 /* Swift Image Uploader */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0A6361E8F0F5A0000FB47 /* AppDelegate.swift */,
+				0AB0A6381E8F0F5A0000FB47 /* ViewController.swift */,
+				0AB0A63D1E8F0F5A0000FB47 /* Assets.xcassets */,
+				0AB0A63F1E8F0F5A0000FB47 /* LaunchScreen.storyboard */,
+				0AB0A6421E8F0F5A0000FB47 /* Info.plist */,
+			);
+			path = "Swift Image Uploader";
+			sourceTree = "<group>";
+		};
+		0AB0A64A1E8F0F5B0000FB47 /* Swift Image UploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0A64B1E8F0F5B0000FB47 /* Swift_Image_UploaderTests.swift */,
+				0AB0A64D1E8F0F5B0000FB47 /* Info.plist */,
+			);
+			path = "Swift Image UploaderTests";
+			sourceTree = "<group>";
+		};
+		0AB0A6551E8F0F5B0000FB47 /* Swift Image UploaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0A6561E8F0F5B0000FB47 /* Swift_Image_UploaderUITests.swift */,
+				0AB0A6581E8F0F5B0000FB47 /* Info.plist */,
+			);
+			path = "Swift Image UploaderUITests";
+			sourceTree = "<group>";
+		};
+		0E08F619B5EEE1E7EE2CE753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				975042096F61566B3C9C9EE1 /* Pods_Swift_Image_Uploader.framework */,
+				4CCA2C74110E7906D98B3F99 /* Pods_Swift_Image_UploaderTests.framework */,
+				1F60C76B632A17EB9E40EE43 /* Pods_Swift_Image_UploaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2672785D6037976EDC17AC55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19B8B18D3016D1DB222A7884 /* Pods-Swift Image Uploader.debug.xcconfig */,
+				142EA76AC1D34D4A5190568D /* Pods-Swift Image Uploader.release.xcconfig */,
+				57C8F5F44B3182A415CFA116 /* Pods-Swift Image UploaderTests.debug.xcconfig */,
+				5138E70DA70DC3681D45C958 /* Pods-Swift Image UploaderTests.release.xcconfig */,
+				713E808FC02F770FCD641200 /* Pods-Swift Image UploaderUITests.debug.xcconfig */,
+				0A22FF2AAFD3BA7801E96DA3 /* Pods-Swift Image UploaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB0A6321E8F0F5A0000FB47 /* Swift Image Uploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB0A65B1E8F0F5B0000FB47 /* Build configuration list for PBXNativeTarget "Swift Image Uploader" */;
+			buildPhases = (
+				F183FA7D1638966488DA1B8D /* [CP] Check Pods Manifest.lock */,
+				0AB0A62F1E8F0F5A0000FB47 /* Sources */,
+				0AB0A6301E8F0F5A0000FB47 /* Frameworks */,
+				0AB0A6311E8F0F5A0000FB47 /* Resources */,
+				1B10F37415DF1A52943B1726 /* [CP] Embed Pods Frameworks */,
+				65C065590528EF3E3E92F904 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Image Uploader";
+			productName = "Swift Image Uploader";
+			productReference = 0AB0A6331E8F0F5A0000FB47 /* Swift Image Uploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AB0A6461E8F0F5B0000FB47 /* Swift Image UploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB0A65E1E8F0F5B0000FB47 /* Build configuration list for PBXNativeTarget "Swift Image UploaderTests" */;
+			buildPhases = (
+				A9215A04C9DBDEF692E3D1C9 /* [CP] Check Pods Manifest.lock */,
+				0AB0A6431E8F0F5B0000FB47 /* Sources */,
+				0AB0A6441E8F0F5B0000FB47 /* Frameworks */,
+				0AB0A6451E8F0F5B0000FB47 /* Resources */,
+				8EAF0A6D9987893A63898085 /* [CP] Embed Pods Frameworks */,
+				802E3FF3B359697D62ABCF33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB0A6491E8F0F5B0000FB47 /* PBXTargetDependency */,
+			);
+			name = "Swift Image UploaderTests";
+			productName = "Swift Image UploaderTests";
+			productReference = 0AB0A6471E8F0F5B0000FB47 /* Swift Image UploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AB0A6511E8F0F5B0000FB47 /* Swift Image UploaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB0A6611E8F0F5B0000FB47 /* Build configuration list for PBXNativeTarget "Swift Image UploaderUITests" */;
+			buildPhases = (
+				36B7434A5A7FABBB60BB82FE /* [CP] Check Pods Manifest.lock */,
+				0AB0A64E1E8F0F5B0000FB47 /* Sources */,
+				0AB0A64F1E8F0F5B0000FB47 /* Frameworks */,
+				0AB0A6501E8F0F5B0000FB47 /* Resources */,
+				94578A474C912DA62C85C308 /* [CP] Embed Pods Frameworks */,
+				131EC294B1CAE4E2BA86D073 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB0A6541E8F0F5B0000FB47 /* PBXTargetDependency */,
+			);
+			name = "Swift Image UploaderUITests";
+			productName = "Swift Image UploaderUITests";
+			productReference = 0AB0A6521E8F0F5B0000FB47 /* Swift Image UploaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB0A62B1E8F0F5A0000FB47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jeantimex;
+				TargetAttributes = {
+					0AB0A6321E8F0F5A0000FB47 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DJEZ3HHH6P;
+						ProvisioningStyle = Automatic;
+					};
+					0AB0A6461E8F0F5B0000FB47 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DJEZ3HHH6P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0AB0A6321E8F0F5A0000FB47;
+					};
+					0AB0A6511E8F0F5B0000FB47 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DJEZ3HHH6P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0AB0A6321E8F0F5A0000FB47;
+					};
+				};
+			};
+			buildConfigurationList = 0AB0A62E1E8F0F5A0000FB47 /* Build configuration list for PBXProject "Swift Image Uploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AB0A62A1E8F0F5A0000FB47;
+			productRefGroup = 0AB0A6341E8F0F5A0000FB47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB0A6321E8F0F5A0000FB47 /* Swift Image Uploader */,
+				0AB0A6461E8F0F5B0000FB47 /* Swift Image UploaderTests */,
+				0AB0A6511E8F0F5B0000FB47 /* Swift Image UploaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB0A6311E8F0F5A0000FB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB0A6411E8F0F5A0000FB47 /* LaunchScreen.storyboard in Resources */,
+				0AB0A63E1E8F0F5A0000FB47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB0A6451E8F0F5B0000FB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB0A6501E8F0F5B0000FB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		131EC294B1CAE4E2BA86D073 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Image UploaderUITests/Pods-Swift Image UploaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B10F37415DF1A52943B1726 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Image Uploader/Pods-Swift Image Uploader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B7434A5A7FABBB60BB82FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65C065590528EF3E3E92F904 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Image Uploader/Pods-Swift Image Uploader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		802E3FF3B359697D62ABCF33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Image UploaderTests/Pods-Swift Image UploaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EAF0A6D9987893A63898085 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Image UploaderTests/Pods-Swift Image UploaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94578A474C912DA62C85C308 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Image UploaderUITests/Pods-Swift Image UploaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9215A04C9DBDEF692E3D1C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F183FA7D1638966488DA1B8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB0A62F1E8F0F5A0000FB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB0A6391E8F0F5A0000FB47 /* ViewController.swift in Sources */,
+				0AB0A6371E8F0F5A0000FB47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB0A6431E8F0F5B0000FB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB0A64C1E8F0F5B0000FB47 /* Swift_Image_UploaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB0A64E1E8F0F5B0000FB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB0A6571E8F0F5B0000FB47 /* Swift_Image_UploaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AB0A6491E8F0F5B0000FB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB0A6321E8F0F5A0000FB47 /* Swift Image Uploader */;
+			targetProxy = 0AB0A6481E8F0F5B0000FB47 /* PBXContainerItemProxy */;
+		};
+		0AB0A6541E8F0F5B0000FB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB0A6321E8F0F5A0000FB47 /* Swift Image Uploader */;
+			targetProxy = 0AB0A6531E8F0F5B0000FB47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AB0A63F1E8F0F5A0000FB47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB0A6401E8F0F5A0000FB47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AB0A6591E8F0F5B0000FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AB0A65A1E8F0F5B0000FB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AB0A65C1E8F0F5B0000FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B8B18D3016D1DB222A7884 /* Pods-Swift Image Uploader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJEZ3HHH6P;
+				INFOPLIST_FILE = "Swift Image Uploader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jeantimex.Swift-Image-Uploader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0AB0A65D1E8F0F5B0000FB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142EA76AC1D34D4A5190568D /* Pods-Swift Image Uploader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJEZ3HHH6P;
+				INFOPLIST_FILE = "Swift Image Uploader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jeantimex.Swift-Image-Uploader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0AB0A65F1E8F0F5B0000FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C8F5F44B3182A415CFA116 /* Pods-Swift Image UploaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DJEZ3HHH6P;
+				INFOPLIST_FILE = "Swift Image UploaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jeantimex.Swift-Image-UploaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Image Uploader.app/Swift Image Uploader";
+			};
+			name = Debug;
+		};
+		0AB0A6601E8F0F5B0000FB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5138E70DA70DC3681D45C958 /* Pods-Swift Image UploaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DJEZ3HHH6P;
+				INFOPLIST_FILE = "Swift Image UploaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jeantimex.Swift-Image-UploaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Image Uploader.app/Swift Image Uploader";
+			};
+			name = Release;
+		};
+		0AB0A6621E8F0F5B0000FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713E808FC02F770FCD641200 /* Pods-Swift Image UploaderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DJEZ3HHH6P;
+				INFOPLIST_FILE = "Swift Image UploaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jeantimex.Swift-Image-UploaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift Image Uploader";
+			};
+			name = Debug;
+		};
+		0AB0A6631E8F0F5B0000FB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A22FF2AAFD3BA7801E96DA3 /* Pods-Swift Image UploaderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DJEZ3HHH6P;
+				INFOPLIST_FILE = "Swift Image UploaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jeantimex.Swift-Image-UploaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift Image Uploader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB0A62E1E8F0F5A0000FB47 /* Build configuration list for PBXProject "Swift Image Uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB0A6591E8F0F5B0000FB47 /* Debug */,
+				0AB0A65A1E8F0F5B0000FB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB0A65B1E8F0F5B0000FB47 /* Build configuration list for PBXNativeTarget "Swift Image Uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB0A65C1E8F0F5B0000FB47 /* Debug */,
+				0AB0A65D1E8F0F5B0000FB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB0A65E1E8F0F5B0000FB47 /* Build configuration list for PBXNativeTarget "Swift Image UploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB0A65F1E8F0F5B0000FB47 /* Debug */,
+				0AB0A6601E8F0F5B0000FB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB0A6611E8F0F5B0000FB47 /* Build configuration list for PBXNativeTarget "Swift Image UploaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB0A6621E8F0F5B0000FB47 /* Debug */,
+				0AB0A6631E8F0F5B0000FB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB0A62B1E8F0F5A0000FB47 /* Project object */;
+}

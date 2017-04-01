@@ -1,0 +1,6 @@
+framework module Pods_Swift_Image_UploaderUITests {
+  umbrella header "Pods-Swift Image UploaderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Cartography (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4.0)
+  - Cartography (~> 1.1.0)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Cartography: 0538ccb4044acbbda2266335fc58cb4228794d90
+
+PODFILE CHECKSUM: c25993ff5f7b4165a32a98c5307893db331ca807
+
+COCOAPODS: 1.1.0.rc.2
