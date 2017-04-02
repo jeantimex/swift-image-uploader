@@ -67,7 +67,9 @@ class ViewController: UIViewController {
         let imageData1 = UIImageJPEGRepresentation(imageView1.image!, 0.5)!
         let imageData2 = UIImageJPEGRepresentation(imageView2.image!, 0.5)!
         
-        let params: [String : AnyObject] = [:]
+        let params: [String : AnyObject] = [
+            "token" : "ABCD1234" as AnyObject
+        ]
         
         Alamofire.upload(multipartFormData: { formData in
             formData.append(imageData1, withName: "file", fileName: "image1.jpg", mimeType: "image/jpeg")
